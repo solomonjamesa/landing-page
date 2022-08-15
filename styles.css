@@ -2,32 +2,33 @@
     font-family: Roboto;
     src: url(fonts/Roboto-Black.ttf);
 }
-.header {
-    border:solid; /*for debugging*/
-    background-color: #1f2937;
-    display: flex
 
+.header {
+   /* border:solid red; /*for debugging*/
+    background-color: #1f2937;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header-logo {
-   /* border:solid red; /*for debugging*/
+   /* border:solid blue; /*for debugging*/
     color:#fff;
     font-size: 24px;
-
-
+    font-family: Roboto;
 }
 
 .header-link {
-    border:solid greenyellow; /*for debugging*/
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-
+    /*border:solid greenyellow; /*for debugging*/
+    display: inline-flex;
+    margin: 5px;
  }
 
-.header-link,
-ul {
-    list-style-type: none;    
-
-}
+ a:link{
+    color: #fff;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 12px;;
+ }
 
