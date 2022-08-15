@@ -3,6 +3,10 @@
     src: url(fonts/Roboto-Black.ttf);
 }
 
+*{
+    font-family: Roboto;
+}
+
 .header {
    /* border:solid red; /*for debugging*/
     background-color: #1f2937;
@@ -14,9 +18,8 @@
 
 .header-logo {
    /* border:solid blue; /*for debugging*/
-    color:#fff;
+    color:#f9faf8;
     font-size: 24px;
-    font-family: Roboto;
 }
 
 .header-link {
@@ -26,9 +29,59 @@
  }
 
  a:link{
-    color: #fff;
+    color:#e5e7eb;
     text-decoration: none;
-    font-family: Roboto;
-    font-size: 12px;;
+    font-size: 18px;;
  }
+
+
+ .hero{
+    border: solid red;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+  
+ }
+
+ .hero-title {
+    border: solid #3882f6;
+    font: bold 4;
+    font-size: 48px;
+    color: #f9fafb;
+    width: 300px;
+    
+ }
+
+ .hero-text {
+    border: solid #3882f6;
+    color:#e5e7eb;
+    font-size: 18px;
+    width: 250px;
+ }
+
+ .hero-button {
+    border: solid #3882f6;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    margin: 5px;
+ }
+
+ .hero-image {
+    border: solid;
+    color: #fff; 
+    background-color: gray;
+    width: 300px;
+    height: 150px;
+    align-self: flex-end;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ 
+
 
