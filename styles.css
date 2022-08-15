@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Black.ttf);
+}
+.header {
+    border:solid; /*for debugging*/
+    background-color: #1f2937;
+    display: flex
+
+}
+
+.header-logo {
+   /* border:solid red; /*for debugging*/
+    color:#fff;
+    font-size: 24px;
+
+
+}
+
+.header-link {
+    border:solid greenyellow; /*for debugging*/
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+.header-link,
+ul {
+    list-style-type: none;    
+
+}
+
