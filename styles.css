@@ -140,3 +140,26 @@
    height: 150px;
 
 }
+
+.quote-box {
+
+   height: 300px;
+   background-color:#e5e7eb ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 100px;
+}
+
+.quote {
+ 
+   font-size: 39px;
+   font-style: italic;
+   color: #1f2937;
+}
+
+.sub-quote{
+   align-self: flex-end;
+   
+}
